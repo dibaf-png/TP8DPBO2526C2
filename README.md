@@ -26,7 +26,7 @@ Pada program ini terdapat beberapa fitur yang disediakan, meliputi:
 
 ---
 
-## 2. Struktur Direktori Program
+## Struktur Direktori Program
 
 ```text
 tp_mvc25/
@@ -89,6 +89,35 @@ Program disusun dengan memisahkan tanggung jawab kode ke dalam tiga komponen uta
 2. **`lecturers` dan `books` (1 : N):**
    - Satu Dosen dapat menulis banyak Buku atau Publikasi, sedangkan setiap Buku dicatat atas satu Dosen Penulis utama.
      
+---
+
+## Alur Program
+
+### 1. Membuka Halaman (Melihat Data)
+1. Ketika pengguna membuka website di browser dan memilih menu yang diinginkan (misalnya menu **Dosen**).
+2. Sistem akan mengecek permintaan pengguna, lalu menuju penyimpanan data (database) untuk mengambil semua catatan dosen yang sudah tersimpan beserta nama program studinya.
+3. Setelah semua catatan terkumpul, sistem menatanya ke dalam bentuk tabel yang rapi dan menampilkannya di layar, lengkap dengan formulir kosong di bagian atas.
+
+### 2. Menambah Data Baru
+1. Pengguna mengetik data baru (misalnya nama dosen, NIP, dan memilih program studinya) di formulir bagian atas, lalu menekan tombol **Tambah**.
+2. Data yang baru diketik langsung dikirim ke bagian pengelola sistem untuk dicek kelengkapannya.
+3. Pengelola sistem kemudian menyimpan catatan baru tersebut ke dalam penyimpanan data.
+4. Setelah tersimpan, halaman otomatis dimuat ulang sehingga data yang baru saja dibuat langsung muncul di tabel.
+
+### 3. Mengubah Data (Edit)
+Proses ini berjalan dalam dua langkah sederhana:
+- **Langkah Pertama (Mengambil data lama):**
+  1. Pengguna menekan tombol **Edit** pada salah satu baris data di tabel.
+  2. Sistem mencari data lama milik baris tersebut di penyimpanan data, lalu memasukkannya otomatis ke dalam kotak-kotak formulir di bagian atas. Tombolnya juga ikut berubah menjadi **Update** sebagai tanda sedang dalam mode mengedit.
+- **Langkah Kedua (Menyimpan perubahan):**
+  1. Pengguna memperbaiki tulisan pada formulir, lalu menekan tombol **Update**.
+  2. Sistem menimpa data lama di penyimpanan data dengan tulisan baru, lalu membersihkan kembali formulir di atas seperti semula.
+
+### 4. Menghapus Data
+1. Pengguna menekan tombol **Hapus** pada baris data yang ingin dihapus.
+2. Layar akan memunculkan kotak konfirmasi untuk memastikan pengguna tidak salah menekan tombol.
+3. Ketika pengguna menyetujui penghapusan, sistem langsung menghapus catatan tersebut dari penyimpanan data dan memperbarui tampilan tabel sehingga baris tersebut hilang.
+
 ---
 
 # Dokumentasi
