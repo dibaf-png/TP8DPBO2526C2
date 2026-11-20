@@ -2,6 +2,7 @@
 Saya Farah Diba Nur Malinda dengan NIM 2502083 mengerjakan Tugas Praktikum 8 dalam mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 --
+
 # Fitur Utama
 Pada program ini terdapat beberapa fitur yang disediakan, meliputi:
 - **Data Program Studi (`Departments`):**
@@ -28,7 +29,7 @@ Pada program ini terdapat beberapa fitur yang disediakan, meliputi:
 ## 2. Struktur Direktori Program
 
 ```text
-Code/
+tp_mvc25/
 ├── assets/                          # Aset CSS & JS Bootstrap 5 lokal
 │   ├── bootstrap.min.css
 │   ├── bootstrap.bundle.min.js
@@ -55,7 +56,6 @@ Code/
 │   │   └── index.php                # Halaman Single-Page CRUD Dosen
 │   └── books/
 │       └── index.php                # Halaman Single-Page CRUD Buku & Publikasi
-├── db_tp_mvc.sql                    # File dump SQL struktur tabel & data dummy
 └── index.php                        # Front Controller / Entry Point & Routing URL
 ```
 
