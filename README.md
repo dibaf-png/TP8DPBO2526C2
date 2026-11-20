@@ -26,7 +26,7 @@ Pada program ini terdapat beberapa fitur yang disediakan, meliputi:
 
 ---
 
-## Struktur Direktori Program
+# Struktur Direktori Program
 
 ```text
 tp_mvc25/
@@ -91,7 +91,7 @@ Program disusun dengan memisahkan tanggung jawab kode ke dalam tiga komponen uta
      
 ---
 
-## Alur Program
+# Alur Program
 
 ### 1. Membuka Halaman (Melihat Data)
 1. Ketika pengguna membuka website di browser dan memilih menu yang diinginkan (misalnya menu **Dosen**).
