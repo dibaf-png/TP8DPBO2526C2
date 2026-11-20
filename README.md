@@ -93,10 +93,16 @@ Program disusun dengan memisahkan tanggung jawab kode ke dalam tiga komponen uta
 
 # Dokumentasi
 1. `Departments`
+   
    <img width="800" height="450" alt="Department" src="https://github.com/user-attachments/assets/9f30447f-f857-4135-ba50-755029d5d256" />
 
+
 3. `Lecturers`
+   
    <img width="800" height="450" alt="Lecturers" src="https://github.com/user-attachments/assets/14f32f81-2776-4d4f-87a9-ec22e0c847fc" />
 
 5. `Books`
+   
    <img width="800" height="450" alt="Books" src="https://github.com/user-attachments/assets/2f73bbac-a410-4cae-8e63-6918eaff1296" />
+
+---
